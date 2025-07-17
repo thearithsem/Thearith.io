@@ -1,0 +1,105 @@
+body{
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+form{
+  width: 420px;
+  margin: 60px auto ;
+  padding: 32px 36px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0px 8px 32px rgba(44, 62, 80, 0.15);
+}
+h1{
+  color: #2d3a4b;
+  font-size: 28px;
+  margin-bottom: 28px;
+  letter-spacing: 1px;
+}
+label{
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #34495e;
+  letter-spacing: 0.5px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"],textarea{
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1.5px solid #bfc9d1;
+  border-radius: 7px;
+  box-sizing: border-box;
+  font-size: 15px;
+  background: #f7fafc;
+  transition: transform 0.25s;
+}
+input[type="text"]:hover,input[type="password"]:hover,input[type="email"]:hover,input[type="number"]:hover,input[type="date"]:hover,textarea:hover{
+  border-color: #357abd;
+  box-shadow: 0 0 8px #b3d4fc;
+  transform: scale(1.02);
+}
+input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,input[type="number"]:focus,input[type="date"]:focus,textarea:focus{
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px #b3d4fc;
+  outline: none;
+}
+input[type="radio"],input[type="checkbox"]{
+  accent-color: #4a90e2;
+  margin-right: 5px;
+  width: 18px;
+  height: 18px;
+  transition: transform 0.25s;
+}
+input[type="radio"]:hover,input[type="checkbox"]:hover{
+  transform: scale(1.15);
+}
+input[type="submit"]{
+  width: 130px;
+  padding: 11px 0;
+  margin-right: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #4a90e2 60%, #357abd 100%);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  transition: background 0.3s, width 0.3s, box-shadow 0.3s;
+}
+input[type="reset"]{
+  width: 130px;
+  padding: 11px 0;
+  margin-right: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #e24a63 60%, #bd3592 100%);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  transition: background 0.3s, width 0.3s, box-shadow 0.3s;
+}
+input[type="submit"]:hover{
+  background: linear-gradient(90deg,  #4a90e2 60%, #357abd 100%);
+  width: 150px;
+  box-shadow: 0 4px 16px rgba(72, 48, 48, 0.15);
+}
+input[type="reset"]:hover{
+  background: linear-gradient(90deg,#e24a63 60%, #bd3592 100%);
+  width: 150px;
+  box-shadow: 0 4px 16px rgba(72, 48, 48, 0.15);
+}
+textarea{
+  resize:vertical;
+  min-height: 60px;
+  max-height: 200px;
+}
